@@ -9,9 +9,8 @@
 7. Leave "Set the time zone automatically" at On.
 ## On Linux
 1. Download "linux-script.sh" and go to your Downloads folder.
-3. Right click.
-4. Click on "Open in terminal".
-5. Execute the following command:
+3. Open a terminal in that folder.
+4. Execute the following command:
 ```bash
 sudo sh linux-script.sh
 ```
