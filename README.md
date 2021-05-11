@@ -13,6 +13,8 @@ sudo timedatectl set-local-rtc 1
 2. Execute the following commands:
 ```powershell
 REG ADD HKLM\System\CurrentControlSet\Control\TimeZoneInformation\ /v RealTimeIsUniversal /t REG_DWORD /d 1
+```
+```powershell
 sc config w32time start= disabled
 ```
 4. At Settings, go to "Time and language".
