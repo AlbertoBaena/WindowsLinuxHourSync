@@ -10,9 +10,9 @@ REG ADD HKLM\System\CurrentControlSet\Control\TimeZoneInformation\ /v RealTimeIs
 ```powershell
 sc config w32time start= disabled
 ```
-4. At Settings, go to "Time and language".
-5. Leave "Set the time automatically" at Off.
-6. Leave "Set the time zone automatically" at On.
+3. At Settings, go to "Time and language".
+4. Leave "Set the time automatically" at Off.
+5. Leave "Set the time zone automatically" at On.
 
 ## On Linux
 1. Open a terminal.
